@@ -5,7 +5,7 @@ function add(a, b) {
   return a + b
 }
 
-function substracts(a, b)
+function substract(a, b)
  {
   return a - b
 }
@@ -27,7 +27,7 @@ function dec(n) {
 function makeInt(n) {
   return parseInt(n,10)
 }
-function makeIntPreserveDecimal(n) {
+function PreserveDecimal(n) {
   return parseFloat(n)
 }
 add(number, 3)
