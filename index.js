@@ -36,5 +36,8 @@ console.log(add(number, 3))
 subtract(number, 3)
 console.log(number)
 
-console.log(makeInt('3'))
+console.log(makeInt('2.34'))
+console.log(makeInt('bonjour'))
+
 console.log(PreserveDecimal('2.34'))
+console.log(PreserveDecimal('bonjour'))
