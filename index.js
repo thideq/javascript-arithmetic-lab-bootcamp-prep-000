@@ -27,8 +27,8 @@ function dec(n) {
 function makeInt(n) {
   return parseInt(n,10)
 }
-function makeInt(n) {
-  return parseInt(n)
+function makeIntPreserveDecimal(n) {
+  return parseFloat(n)
 }
 add(number, 3)
 console.log(add(number, 3))
