@@ -10,9 +10,16 @@ function substract(a, b)
   return a - b
 }
 
-function number++(number) {
+function numberinc(number) {
   return number + 1
 }
-function number--(number) {
+function numberdec(number) {
   return number - 1
 }
+
+
+add(number, 3)
+console.log(number)
+
+substract(number, 3)
+console.log(number)
