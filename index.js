@@ -1,6 +1,6 @@
 var a, b, n
     number = 5
-
+    
 function add(a, b) {
   return a + b
 }
@@ -33,5 +33,8 @@ function PreserveDecimal(n) {
 add(number, 3)
 console.log(add(number, 3))
 
-substract(number, 3)
+subtract(number, 3)
 console.log(number)
+
+console.log(makeInt('3'))
+console.log(PreserveDecimal('2.34'))
