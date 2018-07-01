@@ -19,7 +19,7 @@ function numberdec(number) {
 
 
 add(number, 3)
-console.log(number)
+console.log(add(number, 3))
 
 substract(number, 3)
 console.log(number)
