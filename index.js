@@ -10,4 +10,9 @@ function substract(a, b)
   return a - b
 }
 
-c
+function number++(number) {
+  return number + 1
+}
+function number--(number) {
+  return number - 1
+}
